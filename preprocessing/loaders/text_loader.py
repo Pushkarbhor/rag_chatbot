@@ -3,6 +3,6 @@ def text_loader(file_path:str)->str:
         return f.read()
 
 
-read=text_loader("data\docs\Text\sample_faq.txt")
+#read=text_loader("data\docs\Text\sample_faq.txt")
 
-print(read)
+#print(read)

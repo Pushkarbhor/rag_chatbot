@@ -19,7 +19,7 @@ def text_clean(text:str)->str:
 
 #TEST
 
-if __name__ =="__main__":
+#if __name__ =="__main__":
     sample ="""
     • Hello     world
 
@@ -32,9 +32,9 @@ if __name__ =="__main__":
 
 #Connect Loader +Cleaner
  
-from uni_loader import uni_loader
+#from uni_loader import uni_loader
 
-raw=uni_loader("data\docs\PDF\product_manual.pdf")
-clean=text_clean(raw)
+#raw=uni_loader("data\docs\PDF\product_manual.pdf")
+#clean=text_clean(raw)
 
-print(clean[:500])
+#print(clean[:500])

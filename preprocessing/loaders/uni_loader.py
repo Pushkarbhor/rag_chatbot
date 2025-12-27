@@ -1,6 +1,7 @@
 import os 
-from text_loader import text_loader
-from pdf_loader import pdf_loader
+from .text_loader import text_loader
+from .pdf_loader import pdf_loader
+
 
 def uni_loader(file_path:str)-> str:
     _,ext=os.path.splitext(file_path)
@@ -12,6 +13,6 @@ def uni_loader(file_path:str)-> str:
     else:
         raise ValueError("Please add correct file type")
 
-load=uni_loader(r"data\docs\PDF\faq.pdf")
+#load=uni_loader(r"data\docs\Text\sample_faq.txt")
 
-print(load)
+#print(load)

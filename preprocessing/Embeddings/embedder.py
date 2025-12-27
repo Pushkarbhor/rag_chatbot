@@ -23,7 +23,7 @@ class EmbeddingManager:
         print(f"Generated Embeddings with shape:{embeddings.shape}")
         return embeddings
 
-embedding_manager=EmbeddingManager()
+#embedding_manager=EmbeddingManager()
 #Test
-sample = ["this is a test", "reset your password"]
-vecs = embedding_manager.generate_embeddings(sample)
+#sample = ["this is a test", "reset your password"]
+#vecs = embedding_manager.generate_embeddings(sample)
