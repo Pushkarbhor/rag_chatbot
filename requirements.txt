@@ -1,0 +1,8 @@
+pypdf
+sentence-transformers
+pymilvus
+fastapi
+python-dotenv
+langchain
+langchain-community
+
