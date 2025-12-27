@@ -9,5 +9,5 @@ def pdf_loader(file_path:str)->str:
             text+=page_text + "\n"
     return text
 
-read=pdf_loader("data\docs\PDF\support_docs.pdf")
-print(read)
+#read=pdf_loader("data\docs\PDF\support_docs.pdf")
+#print(read)

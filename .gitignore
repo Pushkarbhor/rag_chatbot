@@ -1,5 +1,9 @@
 rag_env/
-.env
+rag_env_311/
 __pycache__/
 *.pyc
-data/docs/*
+*.pyo
+*.pyd
+.cache/
+chroma_db/
+hf_cache/

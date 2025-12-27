@@ -1,0 +1,13 @@
+Sample FAQ Text File
+
+Q1. What is this file?
+This is a sample text document to test your LangChain TextLoader.
+
+Q2. How do I use it?
+Place it in your project's data folder and load it through your text loader function.
+
+Q3. What does it contain?
+Short question-answer pairs suitable for RAG chatbot testing.
+
+Q4. Can I add more questions?
+Yes. You can freely edit this file and extend it with additional content.
